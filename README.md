@@ -12,7 +12,7 @@ It also provides an admin page to view all submitted feedbacks.
 - Includes an admin page to view all feedback entries
 
 ## 📁 Project Structure
-
+```
 feedback-collector/
 │
 ├── index.html # Feedback form page
@@ -21,7 +21,7 @@ feedback-collector/
 ├── database.php # Database connection file (excluded from GitHub)
 ├── .gitignore # Prevents database.php from being tracked
 └── README.md # Project description (this file)
-
+```
 
 ## 🛠️ Setup Instructions
 
