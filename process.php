@@ -2,12 +2,6 @@
 
 require 'database.php';
 
-// بررسی کامل ورودی‌ها (خالی نبودن، معتبر بودن ایمیل، عدد بودن امتیاز و بین ۱ تا ۵ بودن)
-// ذخیره در جدول دیتابیس
-// نمایش پیام موفقیت یا لیست خطاها به کاربر
-
-print_r($_POST);
-
 $name = htmlspecialchars($_POST['name'] ?? "");
 $email = htmlspecialchars($_POST['email'] ?? "");
 $rate = intval($_POST['rate'] ?? 0);
