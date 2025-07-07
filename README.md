@@ -45,8 +45,8 @@ $db   = 'feedback_db';
 $user = 'root';
 $pass = ''; // Your MySQL password
 ```
-4. **Open index.html in a local PHP server (XAMPP, MAMP, etc.)**   
-5. ** Visit admin.php to see submitted feedback.**
+4. **Open index.html in a local PHP server (XAMPP, MAMP, etc.)**
+5. **Visit admin.php to see submitted feedback.**
 
 ⚠️ Security Tip
 
