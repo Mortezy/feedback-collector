@@ -36,18 +36,17 @@ CREATE TABLE feedbacks (
     rating INT NOT NULL,
     comment TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
+);```
 
-    Edit database.php with your database credentials:
+3. **Edit database.php with your database credentials:**
 
-$host = 'localhost';
+```$host = 'localhost';
 $db   = 'feedback_db';
 $user = 'root';
-$pass = ''; // Your MySQL password
+$pass = ''; // Your MySQL password```
 
-    Open index.html in a local PHP server (XAMPP, MAMP, etc.)
-
-    Visit admin.php to see submitted feedback.
+4. **Open index.html in a local PHP server (XAMPP, MAMP, etc.)**   
+5. ** Visit admin.php to see submitted feedback.**
 
 ⚠️ Security Tip
 
