@@ -51,6 +51,7 @@ $pass = ''; // Your MySQL password
 ⚠️ Security Tip
 
 Make sure to exclude database.php using .gitignore to avoid exposing sensitive database information.
+
 📄 License
 
 This project is released into the public domain.
